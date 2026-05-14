@@ -1,4 +1,4 @@
-# shit_pull
+# rpull
 
 A small C CLI that recursively finds Git repositories under a directory and runs `git pull` in each one.
 
@@ -14,17 +14,17 @@ make
 make install
 ```
 
-That installs the binary to `~/.local/bin/shit_pull`.
+That installs the binary to `~/.local/bin/rpull`.
 
 Make sure `~/.local/bin` is on your `PATH`.
 
 ## Use
 
 ```bash
-shit_pull
-shit_pull ~
-shit_pull ~/projects -j 8
-shit_pull --dry-run
+rpull
+rpull ~
+rpull ~/projects -j 8
+rpull --dry-run
 ```
 
 ## Behavior
