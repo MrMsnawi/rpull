@@ -3,7 +3,7 @@ CFLAGS ?= -O2 -Wall -Wextra -Wpedantic -std=c11
 LDFLAGS ?=
 LDLIBS ?= -pthread
 
-BIN := shit_pull
+BIN := rpull
 SRC := src/main.c
 PREFIX ?= $(HOME)/.local
 BINDIR := $(PREFIX)/bin
